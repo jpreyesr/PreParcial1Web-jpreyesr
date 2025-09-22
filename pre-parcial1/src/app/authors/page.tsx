@@ -15,7 +15,7 @@ export default function AuthorsPage() {
   return (
     <main className="p-6">
       <h1 className="text-2xl font-bold mb-6">Lista de Autores</h1>
-      <AuthorList authors={authors} />
+      <AuthorList authors={authors} setAuthors={setAuthors} />
     </main>
   );
 }
